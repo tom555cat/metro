@@ -58,6 +58,8 @@ async function saveBundleAndMap(
     log('Done writing bundle output');
   });
 
+  log('这是一行测试代码');
+
   if (sourcemapOutput) {
     let {map} = bundle;
     if (sourcemapSourcesRoot !== undefined) {
